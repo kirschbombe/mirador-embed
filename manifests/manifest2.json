@@ -1,6 +1,6 @@
 {
 	"@context": "http://iiif.io/api/presentation/2/context.json",
-	"@id": "http://8b1722a7-6515-4017-9a33-e2a4c7379d64",
+	"@id": "http://dawnchildress.com/mirador-collections/manifests/manifest2.json",
 	"@type": "sc:Manifest",
 	"label": "Kabuki Ezukushi",
 	"metadata": [],
