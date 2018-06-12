@@ -21,20 +21,20 @@
          layout: "1x1",
          buildPath: "mirador/",
          data: [
-           { manifestUri: "{{http://dawnchildress.com/mirador-embed}}/manifests/manifest2.json", location: "Dawn's Laptop"},
+           { manifestUri: "{{https://dawnchildress.com/mirador-embed}}/manifests/manifest2.json", location: "Dawn's Laptop"},
            { manifestUri: "https://gist.githubusercontent.com/mejackreed/2a84eab914273f00114c10ee239b5aa5/raw/manifest.json", location: "Jack's gist"},
-           { manifestUri: "http://dzkimgs.l.u-tokyo.ac.jp/iiif/zuzoubu/12b02/manifest.json", location: "University of Tokyo"},
+           { manifestUri: "https://dzkimgs.l.u-tokyo.ac.jp/iiif/zuzoubu/12b02/manifest.json", location: "University of Tokyo"},
          ],
          windowObjects: [
            {
-           loadedManifest: "http://dzkimgs.l.u-tokyo.ac.jp/iiif/zuzoubu/12b02/manifest.json",
+           loadedManifest: "https://dzkimgs.l.u-tokyo.ac.jp/iiif/zuzoubu/12b02/manifest.json",
            viewType: "ImageView"
          }],
          annotationEndpoint: {
            name:"Annotot",
            module: "AnnototEndpoint",
            options: {
-             endpoint: "http://ras.scta.info/annotations"
+             endpoint: "https://ras.scta.info/annotations"
            } }
        });
      });
